@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,10 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom colors for diff tool
+				'diff-left': '#FFDEE2',  // Light pink for left-only content
+				'diff-right': '#F2FCE2', // Light green for right-only content
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
