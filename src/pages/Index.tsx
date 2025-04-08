@@ -8,7 +8,7 @@ import FileUploader from "@/components/FileUploader";
 import TextEditor from "@/components/TextEditor";
 import DiffViewer from "@/components/DiffViewer";
 import { computeDiff, DiffResult } from "@/utils/diffUtils";
-import { toast } from "@/components/ui/sonner";
+import { toast } from "sonner";
 
 const Index = () => {
   const [leftContent, setLeftContent] = useState<string>("");
